@@ -26,8 +26,8 @@ For ease of running the example, you should have  Docker and docker-compose inst
 TOKEN - token genearted from SmartMEX selfcare;
 SMARTMEX_HOST - hostname of the smartmex service - mobili-stotele.tele2.lt or zvanuparvaldnieks.lmt.lv
 
-3. run docker-compose: $docker-compose up --build
-4. visit 127.0.0.1:8000 in your browser, open console to see log and make a call
+3. run docker-compose: ```$docker-compose up --build```
+4. visit http://127.0.0.1:8000 in your browser, open console to see log and make a call
 
 ### With python ###
 
