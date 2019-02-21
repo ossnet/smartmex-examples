@@ -16,10 +16,10 @@ For ease of running the example, you should have  Docker and docker-compose inst
 ### With docker-compose ###
 
 1. git clone the project,
-2. go to docker-compose.yml file and modify these lines. according to your configuration:
+2. go to docker-compose.yml file and modify these lines according to your configuration:
 
 ```(yml)
-      - TOKEN=QR82348723487234234234234eULV0
+      - TOKEN=QR3234872348723423423UIUY0
       - SMARTMEX_HOST=service.smartmex.eu
 ```
 
@@ -35,7 +35,7 @@ SMARTMEX_HOST - hostname of the smartmex service - mobili-stotele.tele2.lt or zv
 2. Export environment variables:
 
 ```(bash)
-$export TOKEN=QR82348723487234234234234eULV0
+$export TOKEN=QR3234872348723423423UIUY0
 $export SMARTMEX_HOST=service.smartmex.eu
 $export PORT=8000
 ```
