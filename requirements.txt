@@ -1,0 +1,4 @@
+requests
+pyopenssl
+service_identity
+pycrypto

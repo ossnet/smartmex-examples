@@ -1,0 +1,12 @@
+version: '3'
+services:
+  api-mock:
+    ports: 
+      - 8000:8000
+    build: .
+    environment: 
+      - TOKEN=QR8vT00jVYXefrBX5eBZtS30e5QeULV0
+      - SMARTMEX_HOST=zvanuparvaldnieks.lmt.lv
+      - PORT=8000
+
+
