@@ -31,7 +31,7 @@ SMARTMEX_HOST - hostname of the smartmex service - mobili-stotele.tele2.lt or zv
 
 ### With python ###
 
-1. Install latest versions of python 2.X, and follwong python packages - requests, pyopenssl,service_identity, pycrypto
+1. Install latest versions of python 3.X, and follwong python packages - requests, pyopenssl,service_identity, pycrypto
 2. Export environment variables:
 
 ```(bash)
@@ -49,7 +49,7 @@ Where:
 
 ```(bash)
 $cd src/
-$python2 main.py
+$python3 main3.py
 ```
 
 ## Principle of operation ##

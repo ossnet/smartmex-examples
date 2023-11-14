@@ -1,7 +1,7 @@
-FROM pypy:2-onbuild
+FROM pypy:latest-onbuild
 
 COPY src/ /opt/app
 
 WORKDIR /opt/app
 
-CMD [ "pypy","main.py"]
+CMD [ "pypy3","main3.py"]
